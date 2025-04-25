@@ -1,0 +1,19 @@
+.small-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 40px;
+    border: 5px solid #0020F4;
+    border-radius: 20px;
+}
+
+.small-card .card-icon {
+    height: 3em;
+}
+
+.small-card b {
+    font-family: 'SF UI Display', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+}

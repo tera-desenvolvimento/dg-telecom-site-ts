@@ -1,0 +1,53 @@
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0C45F0;
+    padding: 20px;
+    border-radius: 30px;
+    height: 350px;
+}
+
+.plan-card .plan-potency {
+    font-family: "SF UI Display";
+    color: #ffffff;
+}
+
+.plan-card .plan-potency b {
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.plan-card .plan-potency span {
+    font-weight: 300;
+}
+
+.plan-card > span {
+    font-family: "SF UI Display";
+    color: #ffffff;
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.plan-card > small {
+    font-family: "SF UI Display";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.plan-card .plan-price b {
+    font-family: "SF UI Display";
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.plan-card .plan-price b.price {
+    font-size: 5rem;
+}
+
+.plan-card a.subscribe-button {
+    justify-self: flex-end;
+}

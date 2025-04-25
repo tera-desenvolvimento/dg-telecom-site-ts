@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+@font-face {
+    font-family: "SF UI Display Bold";
+    src: url('../fonts/sf-ui-text/SFUIText-Bold.ttf');
+}
+
+@font-face {
+    font-family: "SF UI Display";
+    src: url('../fonts/sf-ui-text/SFUIText-Regular.ttf');
+}
+
+@font-face {
+    font-family: "SF UI Display Light";
+    src: url('../fonts/sf-ui-text/SFUIText-Light.ttf');
+}
+
+.banner-topo {
+    width: -webkit-fill-available; 
+}
+
+.middle-title {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card {
+    height: 300px;
+}
+
+.billboard-title {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.horizontal-title {
+    text-align: center;
+}
+
+.horizontal-title span {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.horizontal-title b {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.subscribe-button {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #0C45F0;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 2px solid #0C45F0;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: ease-in-out 0.4s all;
+}
+
+.subscribe-button:hover {
+    background-color: #0C45F0;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.icon-channel {
+    height: 2rem;
+}
+
+.astronaut-img {
+    max-height: 350px;
+}
+
+.test-text {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.test-button {
+    font-family: "SF UI Display Bold";
+    font-weight: 700;
+    font-size: 2rem;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #0C45F0;
+    border: 2px solid #ffffff;
+    width: fit-content;
+    padding: 20px 40px;
+    border-radius: 20px;
+    transition: ease-in-out 0.4s all;
+}
+
+.test-button:hover {
+    background-color: #ffffff;
+    color: #0C45F0;
+    border: 2px solid #0C45F0;
+}
+
+.test-obs {
+    font-family: "SF UI Display Light";
+    font-weight: 100;
+    font-size: .9rem;
+}

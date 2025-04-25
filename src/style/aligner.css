@@ -1,0 +1,25 @@
+.aligner {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.aligner.horizontal {
+    flex-direction: row;
+}
+
+.aligner.vertical {
+    flex-direction: column;
+}
+
+.aligner.bg1 {
+    background-image: url(../img/bg\ 1.png);
+    background-size: cover;
+}
+
+.aligner.center {
+    justify-content: center;
+    align-items: center;
+}
