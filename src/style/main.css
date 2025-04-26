@@ -14,17 +14,17 @@ body {
 
 @font-face {
     font-family: "SF UI Display Bold";
-    src: url('../fonts/sf-ui-text/SFUIText-Bold.ttf');
+    src: url('../fonts/sf-ui-display/sf-ui-display-bold.woff');
 }
 
 @font-face {
     font-family: "SF UI Display";
-    src: url('../fonts/sf-ui-text/SFUIText-Regular.ttf');
+    src: url('../fonts/sf-ui-display/sf-ui-display-medium.woff');
 }
 
 @font-face {
     font-family: "SF UI Display Light";
-    src: url('../fonts/sf-ui-text/SFUIText-Light.ttf');
+    src: url('../fonts/sf-ui-display/sf-ui-display-thin.woff');
 }
 
 .banner-topo {
