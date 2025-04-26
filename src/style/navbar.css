@@ -31,7 +31,7 @@
 .header-container .menu-list .menu-item a {
     text-decoration: none;
     color: #FFFFFF;
-    font-family: 'Mona-Sans', sans-serif;
+    font-family: "SF UI Display Bold";
     font-weight: 700;
     transition: ease-in-out 0.3s;
 
